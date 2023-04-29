@@ -24,6 +24,7 @@ public class Loginpanel extends javax.swing.JFrame {
      */
     QueryProcessor dbprocess;
     //fdDWASD
+    //asd
     public Loginpanel() {
         initComponents();
         
