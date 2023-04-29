@@ -23,7 +23,7 @@ public class Loginpanel extends javax.swing.JFrame {
      * Creates new form Loginpanel
      */
     QueryProcessor dbprocess;
-    //fdD
+    //fdDWASD
     public Loginpanel() {
         initComponents();
         
