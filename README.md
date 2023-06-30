@@ -15,4 +15,5 @@ The documentation can be found [here]([https://docs.google.com/presentation/d/1f
 
 ![image](https://github.com/kethtacatani/Hotel-Booking-System/assets/115775088/cd812059-f304-4cd6-ad7f-7351b7045500)
 ![image](https://github.com/kethtacatani/Hotel-Booking-System/assets/115775088/f9991a1e-a9d7-4ff2-92ee-ea84c4d4b6a2)
-![image](https://github.com/kethtacatani/Hotel-Booking-System/assets/115775088/c3b3b5f3-f6bd-42c8-a492-5da9707ec3cb)
+![image](https://github.com/kethtacatani/Hotel-Booking-System/assets/115775088/088f9974-fac1-4528-bd70-614845c0a30c)
+
