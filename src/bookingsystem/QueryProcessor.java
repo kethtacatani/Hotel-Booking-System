@@ -27,7 +27,7 @@ public class QueryProcessor {
         {
             DBConnection.setConnection();
             con = DBConnection.getConnection();
-            stmt= con.createStatement();
+            stmt= con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
             
         }catch(Exception e) {e.printStackTrace();}
     }

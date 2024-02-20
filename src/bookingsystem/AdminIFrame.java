@@ -442,7 +442,6 @@ public void checkIntTF(){
                 "Title 1", "Title 2", "Title 3", "Title 4", "Title 5", "Title 6"
             }
         ));
-        bookingsTable.setRowHeight(20);
         bookingsTable.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bookingsTableMouseClicked(evt);
@@ -575,7 +574,6 @@ public void checkIntTF(){
                 "Branch ID", "Branch Name", "Manager", "Location", "Branch Type"
             }
         ));
-        branchesTable.setRowHeight(20);
         branchesTable.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 branchesTableMouseClicked(evt);
@@ -664,7 +662,6 @@ public void checkIntTF(){
                 "Title 1", "Title 2", "Title 3", "Title 4", "Title 5", "Title 6", "Title 7", "Title 8", "Title 9", "Title 10"
             }
         ));
-        historyTable.setRowHeight(20);
         jScrollPane4.setViewportView(historyTable);
         if (historyTable.getColumnModel().getColumnCount() > 0) {
             historyTable.getColumnModel().getColumn(4).setResizable(false);

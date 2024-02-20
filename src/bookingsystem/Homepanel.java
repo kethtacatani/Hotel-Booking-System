@@ -575,7 +575,7 @@ public void checkIntTF(){
                 tableResultLabel.setText("" );
                 int confirm = JOptionPane.showConfirmDialog(null, "<html><b>Please confirm that your reservation is correct.      </b>\nBranch: "
                         +branchReserve+"\nLocation: "+locationReserve+"\nRoom Number: "+roomNumReserve+"\nRoom Type: "+roomTypeReserve
-                        +"\nPrice/Night: P"+roomPriceReserve+"\nNo. of Days: "+daysOccupiedReserve+"\nTotal Payable: P"+pricePayed+"0", "GBHotel",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE,  new ImageIcon("C:\\Users\\Keth Dominic\\Documents\\NetBeansProjects\\BookingSystem\\src\\bookingsystem\\images\\icons8_checked_radio_button_48px.png"));
+                            +"\nPrice/Night: P"+roomPriceReserve+"\nNo. of Days: "+daysOccupiedReserve+"\nTotal Payable: P"+pricePayed+"0", "GBHotel",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE,  new ImageIcon("C:\\Users\\Keth Dominic\\Documents\\NetBeansProjects\\BookingSystem\\src\\bookingsystem\\images\\icons8_checked_radio_button_48px.png"));
                 if(confirm == JOptionPane.YES_OPTION){
                     
                     reserve();

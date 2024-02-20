@@ -23,8 +23,8 @@ public class DBConnection {
   {
       try
       {
-         //Class.forName("com.mysql.jdbc.Driver");
-          connect = DriverManager.getConnection("jdbc:mysql://localhost/booking_system", "bookingsystem", "bookingsystem");
+         Class.forName("com.mysql.jdbc.Driver");
+          connect = DriverManager.getConnection("jdbc:mysql://localhost/booking_system", "root", "");
        //JOptionPane.showMessageDialog(null, "Succesfully Connected!");
       }catch(Exception e)
      {

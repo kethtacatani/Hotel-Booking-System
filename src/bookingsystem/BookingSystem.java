@@ -17,6 +17,8 @@ public class BookingSystem {
     public static void main(String[] args) {
         // TODO code application logic here
         QueryProcessor db = new QueryProcessor();
+        Loginpanel login = new Loginpanel();
+        login.setVisible(true);
     }
     
 }
